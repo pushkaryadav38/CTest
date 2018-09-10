@@ -1,0 +1,9 @@
+int my_strlen3(char *s)
+{
+   char *p = s;
+
+   while (*p)
+      ++p;
+
+   return (p - s);
+}
